@@ -1,0 +1,172 @@
+{
+  "greeting": [
+    "hola",
+    "buenas",
+    "buenos dias",
+    "buenas tardes",
+    "buenas noches",
+    "que tal",
+    "como estas",
+    "como va",
+    "saludos",
+    "hello",
+    "hi",
+    "hey",
+    "que onda"
+  ],
+  "thank_you": [
+    "gracias",
+    "muchas gracias",
+    "te agradezco",
+    "mil gracias"
+  ],
+  "bot_compliment": [
+    "que genio",
+    "que bien",
+    "muy util",
+    "muy bueno",
+    "excelente"
+  ],
+  "ask_who_are_you": [
+    "quien sos",
+    "que sos",
+    "que haces",
+    "sos un bot"
+  ],
+  "ask_price": [
+    "precio",
+    "costo",
+    "cuanto sale",
+    "valor",
+    "presupuesto",
+    "cuanto cuesta",
+    "precio de una web",
+    "cotizacion para una pagina",
+    "cuanto me saldria un ecommerce"
+  ],
+  "ask_human": [
+    "humano",
+    "persona",
+    "ayuda",
+    "quiero hablar con alguien",
+    "contactar",
+    "hablar con vane"
+  ],
+  "ask_creator": [
+    "quién te creó",
+    "quién te hizo",
+    "quién es tu creador",
+    "quien es vane"
+  ],
+  "ask_about_vane_experience": [
+    "experiencia de vane",
+    "sobre vos",
+    "quien sos vos"
+  ],
+  "ask_about_bot": [
+    "que eres tu",
+    "que es avi",
+    "eres un programa"
+  ],
+  "ask_about_experience_proof": [
+    "que proyectos hiciste",
+    "muestrame tu trabajo",
+    "ejemplos de webs",
+    "portfolio",
+    "muestrame tu experiencia"
+  ],
+  "ask_about_technologies": [
+    "que tecnologias usas",
+    "con que programas",
+    "stack tecnologico",
+    "react",
+    "node",
+    "wordpress"
+  ],
+  "ask_workflow": [
+    "como funciona",
+    "como es el proceso",
+    "como trabajas",
+    "metodologia de trabajo",
+    "cuales son los pasos"
+  ],
+  "ask_what_is_maintenance": [
+    "que es mantenimiento web",
+    "en que consiste el mantenimiento",
+    "para que sirve el mantenimiento",
+    "que incluye el mantenimiento"
+  ],
+  "ask_about_maintenance_plans": [
+    "planes de mantenimiento",
+    "plan pro",
+    "plan base",
+    "plan socio",
+    "cuanto sale mantener la web",
+    "precio del mantenimiento",
+    "soporte tecnico",
+    "actualizaciones de seguridad",
+    "copias de seguridad"
+  ],
+  "ask_for_plan_recommendation": [
+    "cual plan puedo elegir",
+    "y cual seria para mi",
+    "cual me recomendas",
+    "ayudame a elegir un plan",
+    "que plan necesito"
+  ],
+  "ask_what_is_hosting_domain": [
+    "que es dominio y hosting",
+    "que es un dominio",
+    "que es el hosting",
+    "necesito dominio",
+    "explícame que es un hosting",
+    "donde se aloja mi web",
+    "necesito un servidor para mi pagina",
+    "comprar una direccion web"
+  ],
+  "ask_about_promotions": [
+    "promociones",
+    "tienen alguna promo",
+    "hay algun descuento",
+    "ofertas"
+  ],
+  "ask_about_woocommerce": [
+    "woocommerce",
+    "woo commerce",
+    "que es woocommerce",
+    "como funciona woocommerce para vender",
+    "puedo vender productos con wordpress",
+    "plataforma para tienda online"
+  ],
+  "ask_about_payment_gateways": [
+    "mercado pago",
+    "pasarelas de pago",
+    "como cobro en mi tienda",
+    "aceptan tarjetas de credito"
+  ],
+  "ask_about_shipping": [
+    "envios",
+    "costo de envio",
+    "como se envia",
+    "logistica de envios"
+  ],
+  "ask_what_is_custom_system": [
+    "sistema a medida",
+    "que es un sistema a medida",
+    "automatizar procesos",
+    "software personalizado"
+  ],
+  "ask_webapp_vs_desktop": [
+    "aplicacion de escritorio",
+    "aplicacion web",
+    "diferencia entre webapp y de escritorio",
+    "en el navegador o instalado"
+  ],
+  "ask_what_is_landing_page": [
+    "pagina de lanzamiento",
+    "landing page",
+    "one-page",
+    "que es una landing",
+    "una sola pagina"
+  ]
+}
