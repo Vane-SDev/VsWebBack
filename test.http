@@ -7,7 +7,7 @@ POST http://127.0.0.1:8000/encontrar-intencion
 Content-Type: application/json
 
 {
-    "user_message": "cuanto cuesta una pagina web"
+    "user_message": "email"
 }
 
 ### TEST EN PRODUCCIÓN (RENDER)
@@ -17,5 +17,5 @@ POST https://vswebback.onrender.com/encontrar-intencion
 Content-Type: application/json
 
 {
-    "user_message": "cuanto cuesta una pagina web"
+    "user_message": "ayuda"
 }

@@ -47,7 +47,7 @@
     ]
   },
   "ask_human": {
-    "golden_keywords": ["humano", "persona", "representante", "vane"],
+    "golden_keywords": ["humano", "persona", "representante", "vane", "ayuda"],
     "examples": [
       "quiero hablar con alguien",
       "necesito ayuda de una persona",
