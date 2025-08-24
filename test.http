@@ -1,0 +1,21 @@
+
+
+### TEST EN ENTORNO LOCAL
+# Asegúrate de que tu servidor local (uvicorn) esté corriendo antes de enviar esta petición.
+# Esta prueba SÍ usará tus últimos cambios guardados en knowledge_base.json.
+POST http://127.0.0.1:8000/encontrar-intencion
+Content-Type: application/json
+
+{
+    "user_message": "cuanto cuesta una pagina web"
+}
+
+### TEST EN PRODUCCIÓN (RENDER)
+# Esta prueba SIEMPRE usará la versión del código que está deployada en Render.
+# No reflejará tus cambios locales hasta que hagas un nuevo deploy.
+POST https://vswebback.onrender.com/encontrar-intencion
+Content-Type: application/json
+
+{
+    "user_message": "cuanto cuesta una pagina web"
+}

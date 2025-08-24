@@ -1,172 +1,210 @@
 {
-  "greeting": [
-    "hola",
-    "buenas",
-    "buenos dias",
-    "buenas tardes",
-    "buenas noches",
-    "que tal",
-    "como estas",
-    "como va",
-    "saludos",
-    "hello",
-    "hi",
-    "hey",
-    "que onda"
-  ],
-  "thank_you": [
-    "gracias",
-    "muchas gracias",
-    "te agradezco",
-    "mil gracias"
-  ],
-  "bot_compliment": [
-    "que genio",
-    "que bien",
-    "muy util",
-    "muy bueno",
-    "excelente"
-  ],
-  "ask_who_are_you": [
-    "quien sos",
-    "que sos",
-    "que haces",
-    "sos un bot"
-  ],
-  "ask_price": [
-    "precio",
-    "costo",
-    "cuanto sale",
-    "valor",
-    "presupuesto",
-    "cuanto cuesta",
-    "precio de una web",
-    "cotizacion para una pagina",
-    "cuanto me saldria un ecommerce"
-  ],
-  "ask_human": [
-    "humano",
-    "persona",
-    "ayuda",
-    "quiero hablar con alguien",
-    "contactar",
-    "hablar con vane"
-  ],
-  "ask_creator": [
-    "quién te creó",
-    "quién te hizo",
-    "quién es tu creador",
-    "quien es vane"
-  ],
-  "ask_about_vane_experience": [
-    "experiencia de vane",
-    "sobre vos",
-    "quien sos vos"
-  ],
-  "ask_about_bot": [
-    "que eres tu",
-    "que es avi",
-    "eres un programa"
-  ],
-  "ask_about_experience_proof": [
-    "que proyectos hiciste",
-    "muestrame tu trabajo",
-    "ejemplos de webs",
-    "portfolio",
-    "muestrame tu experiencia"
-  ],
-  "ask_about_technologies": [
-    "que tecnologias usas",
-    "con que programas",
-    "stack tecnologico",
-    "react",
-    "node",
-    "wordpress"
-  ],
-  "ask_workflow": [
-    "como funciona",
-    "como es el proceso",
-    "como trabajas",
-    "metodologia de trabajo",
-    "cuales son los pasos"
-  ],
-  "ask_what_is_maintenance": [
-    "que es mantenimiento web",
-    "en que consiste el mantenimiento",
-    "para que sirve el mantenimiento",
-    "que incluye el mantenimiento"
-  ],
-  "ask_about_maintenance_plans": [
-    "planes de mantenimiento",
-    "plan pro",
-    "plan base",
-    "plan socio",
-    "cuanto sale mantener la web",
-    "precio del mantenimiento",
-    "soporte tecnico",
-    "actualizaciones de seguridad",
-    "copias de seguridad"
-  ],
-  "ask_for_plan_recommendation": [
-    "cual plan puedo elegir",
-    "y cual seria para mi",
-    "cual me recomendas",
-    "ayudame a elegir un plan",
-    "que plan necesito"
-  ],
-  "ask_what_is_hosting_domain": [
-    "que es dominio y hosting",
-    "que es un dominio",
-    "que es el hosting",
-    "necesito dominio",
-    "explícame que es un hosting",
-    "donde se aloja mi web",
-    "necesito un servidor para mi pagina",
-    "comprar una direccion web"
-  ],
-  "ask_about_promotions": [
-    "promociones",
-    "tienen alguna promo",
-    "hay algun descuento",
-    "ofertas"
-  ],
-  "ask_about_woocommerce": [
-    "woocommerce",
-    "woo commerce",
-    "que es woocommerce",
-    "como funciona woocommerce para vender",
-    "puedo vender productos con wordpress",
-    "plataforma para tienda online"
-  ],
-  "ask_about_payment_gateways": [
-    "mercado pago",
-    "pasarelas de pago",
-    "como cobro en mi tienda",
-    "aceptan tarjetas de credito"
-  ],
-  "ask_about_shipping": [
-    "envios",
-    "costo de envio",
-    "como se envia",
-    "logistica de envios"
-  ],
-  "ask_what_is_custom_system": [
-    "sistema a medida",
-    "que es un sistema a medida",
-    "automatizar procesos",
-    "software personalizado"
-  ],
-  "ask_webapp_vs_desktop": [
-    "aplicacion de escritorio",
-    "aplicacion web",
-    "diferencia entre webapp y de escritorio",
-    "en el navegador o instalado"
-  ],
-  "ask_what_is_landing_page": [
-    "pagina de lanzamiento",
-    "landing page",
-    "one-page",
-    "que es una landing",
-    "una sola pagina"
-  ]
+  "greeting": {
+    "golden_keywords": [],
+    "examples": [
+      "hola",
+      "buenas",
+      "buenos dias",
+      "que tal",
+      "como estas",
+      "hey"
+    ]
+  },
+  "thank_you": {
+    "golden_keywords": ["gracias"],
+    "examples": [
+      "muchas gracias",
+      "te agradezco",
+      "muy amable"
+    ]
+  },
+  "bot_compliment": {
+    "golden_keywords": ["genio", "excelente"],
+    "examples": [
+      "que bien",
+      "muy bueno",
+      "muy util",
+      "que buena onda"
+    ]
+  },
+  "ask_who_are_you": {
+    "golden_keywords": ["sos", "eres"],
+    "examples": [
+      "quien sos vos",
+      "que sos",
+      "con quien hablo",
+      "eres una inteligencia artificial?"
+    ]
+  },
+  "ask_price": {
+    "golden_keywords": ["precio", "costo", "presupuesto", "cotizacion", "valor", "cuanto sale", "cuanto cuesta", "guita"],
+    "examples": [
+      "me decis el valor de una tienda online",
+      "que costo tiene un sitio corporativo",
+      "cuanto me saldria un sistema a medida",
+      "quiero saber los precios de las webs",
+      "dame un estimado para un ecommerce"
+    ]
+  },
+  "ask_human": {
+    "golden_keywords": ["humano", "persona", "representante", "vane"],
+    "examples": [
+      "quiero hablar con alguien",
+      "necesito ayuda de una persona",
+      "puedo contactar con el equipo",
+      "pasame con un asistente"
+    ]
+  },
+  "ask_creator": {
+    "golden_keywords": ["creador", "creó", "hizo", "programo"],
+    "examples": [
+      "quién te creó",
+      "quién te hizo",
+      "quién es tu creador"
+    ]
+  },
+  "ask_about_vane_experience": {
+    "golden_keywords": ["experiencia"],
+    "examples": [
+      "que experiencia tenes",
+      "contame sobre tu formacion",
+      "hace cuanto te dedicas a esto"
+    ]
+  },
+  "ask_about_bot": {
+    "golden_keywords": ["avi"],
+    "examples": [
+      "que eres tu",
+      "eres un programa",
+      "cuales son tus funciones"
+    ]
+  },
+  "ask_about_experience_proof": {
+    "golden_keywords": ["portfolio", "proyectos", "trabajos"],
+    "examples": [
+      "muestrame tu trabajo",
+      "ejemplos de webs",
+      "donde puedo ver sus trabajos",
+      "casos de exito"
+    ]
+  },
+  "ask_about_technologies": {
+    "golden_keywords": ["tecnologias", "stack"],
+    "examples": [
+      "con que programas",
+      "cual es su stack tecnologico",
+      "en que lenguajes programan"
+    ]
+  },
+  "ask_workflow": {
+    "golden_keywords": ["proceso", "metodologia", "pasos"],
+    "examples": [
+      "como es el proceso de trabajo",
+      "cual es la metodologia",
+      "cuales son los pasos para empezar"
+    ]
+  },
+  "ask_what_is_maintenance": {
+    "golden_keywords": ["mantenimiento"],
+    "examples": [
+      "en que consiste el soporte",
+      "que incluye el plan de mantenimiento",
+      "ofrecen soporte post-entrega"
+    ]
+  },
+  "ask_about_maintenance_plans": {
+    "golden_keywords": ["planes"],
+    "examples": [
+      "cuales son los planes de mantenimiento",
+      "mostrame los planes de soporte",
+      "que tipos de mantenimiento ofrecen"
+    ]
+  },
+  "ask_for_plan_recommendation": {
+    "golden_keywords": ["recomendas", "recomiendas", "elegir"],
+    "examples": [
+      "cual plan me recomendas",
+      "ayudame a elegir un plan",
+      "que plan necesito"
+    ]
+  },
+  "ask_what_is_hosting_domain": {
+    "golden_keywords": ["hosting", "dominio", "alojamiento", "servidor"],
+    "examples": [
+      "explicame que es el alojamiento web",
+      "para que sirve un servidor",
+      "donde se guarda la pagina"
+    ]
+  },
+  "ask_about_promotions": {
+    "golden_keywords": ["promo", "descuento", "ofertas"],
+    "examples": [
+      "tienen alguna promocion",
+      "hay algun descuento especial",
+      "ofertas especiales"
+    ]
+  },
+  "ask_about_woocommerce": {
+    "golden_keywords": ["woocommerce"],
+    "examples": [
+      "que es woo commerce",
+      "como funciona para vender online",
+      "es una plataforma de ecommerce"
+    ]
+  },
+  "ask_about_payment_gateways": {
+    "golden_keywords": ["cobro", "pago", "mercado pago"],
+    "examples": [
+      "como cobro en mi tienda",
+      "que pasarelas de pago usan",
+      "integran mercado pago"
+    ]
+  },
+  "ask_about_shipping": {
+    "golden_keywords": ["envios", "logistica"],
+    "examples": [
+      "como funcionan los envios",
+      "que logistica de envios usan",
+      "configuran el costo de envio"
+    ]
+  },
+  "ask_what_is_custom_system": {
+    "golden_keywords": ["sistema a medida", "software personalizado"],
+    "examples": [
+      "para que sirve un software a medida",
+      "como se automatizan procesos"
+    ]
+  },
+  "ask_webapp_vs_desktop": {
+    "golden_keywords": [],
+    "examples": [
+      "que diferencia hay entre aplicacion web y de escritorio",
+      "cuando usar una app web",
+      "es mejor instalado o en el navegador"
+    ]
+  },
+  "ask_what_is_landing_page": {
+    "golden_keywords": ["landing", "one-page"],
+    "examples": [
+      "que es una pagina de lanzamiento",
+      "para que sirve una landing page",
+      "que es un sitio one-page"
+    ]
+  },
+  "ask_about_timelines": {
+    "golden_keywords": ["tiempo", "plazos", "demora"],
+    "examples": [
+      "cuanto tiempo tardan",
+      "cuales son los plazos de entrega",
+      "en cuanto tiempo esta lista"
+    ]
+  },
+  "ask_about_payment_methods": {
+    "golden_keywords": ["pagar", "cuotas", "financiacion"],
+    "examples": [
+      "como puedo pagar",
+      "que metodos de pago aceptan",
+      "se puede pagar en cuotas"
+    ]
+  }
 }
